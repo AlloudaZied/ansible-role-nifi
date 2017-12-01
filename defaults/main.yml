@@ -3,7 +3,7 @@
 nifi_major_version: "{{ nifi_version | splitext | first }}"
 
 # installation locations
-nifi_base_dir: /opt/nifi
+nifi_base_dir: /opt/option
 nifi_etc_dir: /etc/nifi
 nifi_log_dir: /var/log/nifi
 nifi_pid_dir: /var/run/nifi
